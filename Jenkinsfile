@@ -1,8 +1,8 @@
 pipeline {
     agent any
-    tools {
-        dockertool 'Docker-Cli'
-    }
+  tools {
+    dockerTool 'Docker-Cli'
+}
     stages {
         stage('Run Docker Container') {
             steps {
