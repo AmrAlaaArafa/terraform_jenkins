@@ -50,7 +50,7 @@ pipeline {
 
         failure {
             emailext(
-                to: 'your-email@gmail.com',
+                to: 'zozowaleed122@gmail.com',
                 subject: "Terraform Pipeline Failed",
                 body: "Workspace: ${params.ENVIRONMENT}\nBuild: ${env.BUILD_URL}"
             )
